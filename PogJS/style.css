@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+#container {
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+}
+#element {
+    position: absolute;
+    height: 268px;
+    width: 200px;
+    background: center/cover url("pog.png");
+}
