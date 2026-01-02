@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 18px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: lime;
+}
+.day_link {
+    font-size: 20px;
+    padding: 5px;
+}
+
+code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: darkslategray;
+}
