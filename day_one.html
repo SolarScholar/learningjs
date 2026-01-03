@@ -39,6 +39,61 @@
             <li>Reserved words (JavaScript keywords) cannot be used as names.</li>
         </ul>
         <p>Numbers aren't allowed as the first character names</p>
+        <table>
+            <tr>
+                <th></th>
+                <th>Scope</th>
+                <th>Redeclare</th>
+                <th>Reassign</th>
+                <th>Hoisted</th>
+                <th>Binds this</th>
+            </tr>
+            <tr>
+                <td>var</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>let</td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>const</td>
+                <td>Yes</td>
+                <td>No</td>
+                <td>No</td>
+                <td>No</td>
+                <td>No</td>
+            </tr>
+        </table>
+
+        <hr>
+        <h3>Datatypes</h3>
+        <ul>
+            <li>String - a text of characters eclosed in quotes</li>
+            <li>Number - a number representing a mathematical value</li>
+            <li>Bigint - a number representing a large integer</li>
+            <li>Boolean - a data type representing true or false</li>
+            <li>Object - a collection of key-value pairs of data</li>
+            <li>Undefined - a primitive variable with no assigned value</li>
+            <li>Null - a primitive value representing object adsence </li>
+            <li>Symbol - a unique and primitive identifier</li>
+        </ul>
+        <code>
+            //String <br>
+            let color = "Yellow"; <br>
+            let lastName = "Johnson"; <br>
+
+            //Numbers <br>
+            let length = 16; 
+        </code>
     </main>
     <script>
 
